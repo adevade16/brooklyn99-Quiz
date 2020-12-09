@@ -85,7 +85,7 @@ if (readlineSync.keyInYN('Do you want to continue?'))
     quiz(questions[i].question, questions[i].answer)//
   }
   console.log("-----------------------")
-  console.log("AMAZING! Your Final Score is: ",score)
+  console.log(chalk.yellowBright.bgGrey("AMAZING! Your Final Score is: "),score)
   
 } else 
 {
